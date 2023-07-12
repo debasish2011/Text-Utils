@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 90vw;
+    margin: 5px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.block {
+    display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.no-list-style {
+    list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center-content {
+    justify-content: center;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-none {
+    display: none;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-baseline{
+    align-items: baseline;
+}
+
+.btn {
+    border-width: 0px;
+    margin: 2px 3px;
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+    transition: all ease-in 0.15s;
+    font-weight: 600;
+}
+
+.btn:disabled{
+    background-color: color;
+    opacity: 0.8;
+}
+
+.btn:disabled{
+    background-color: #0b5ed7;
+    opacity: 0.5;
+}
+
+.btn-blue{
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+.btn-blue:hover{
+    background-color: #0b5ed7;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

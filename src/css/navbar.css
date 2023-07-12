@@ -1,0 +1,11 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #261965;
+    z-index: 1;
+}
+
+.loginSingupDark{
+    flex-wrap: wrap;
+    align-items: center;
+}

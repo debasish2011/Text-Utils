@@ -1,0 +1,15 @@
+#description{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(118, 118, 118);
+    transition: all ease-in-out 0.3s;
+}
+
+.btnarea{
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.summary p{
+    padding: 5px;
+}
