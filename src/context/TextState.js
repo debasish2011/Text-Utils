@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import TextContext from "./TextContext";
+require("dotenv").config({ path: "../../.env"});
 
 const TextState = (props) => {
   const [texts, setTexts] = useState([]);
-  const host = "http://localhost:5000";
+  const host = process.env.host ||"http://localhost:5000";
 
   const getTexts = async () => {
     const response = await fetch(`${host}/api/text/fetchalltexts`, {
